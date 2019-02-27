@@ -49,7 +49,7 @@ resource "nsxt_ip_set" "IPS_Management" {
 
 resource "nsxt_ip_set" "IPS-T1-Tenant1-uplink" {
   display_name = "IPS-T1-Tenant1-uplink"
-  ip_addresses = ["192.168.110.10", "192.168.110.78"]
+  ip_addresses = ["100.64.208.1"]
 }
 
 
