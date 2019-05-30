@@ -48,8 +48,8 @@ resource "nsxt_ip_set" "IPS_Management" {
 }
 
 resource "nsxt_ip_set" "IPS-T1-Tenant1-uplink" {
-  display_name = "IPS-T1-Tenant1-uplink"
-  ip_addresses = ["100.64.208.1"]
+  display_name = "IPS-T1-uplink"
+  ip_addresses = ["100.64.0.0/15"]
 }
 
 
