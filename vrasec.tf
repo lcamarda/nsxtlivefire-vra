@@ -4,7 +4,7 @@ variable "nsx_ip" {
 }
 
 variable "nsx_password" {
-  default = "VMware1!"
+  default = "VMware1!VMware1!"
 }
 
 
